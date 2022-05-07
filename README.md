@@ -1,4 +1,4 @@
-# Karls React Template
+# 🍐 Karls React Template
 _updated 22-05-07_
 
 ## Prerequisites
@@ -30,8 +30,8 @@ _updated 22-05-07_
 - The `global.scss` file contains global styles and variables.
 - The `index.scss` file contains default settings, fonts, accessibility etc.
 
-**global** - availabe accross the whole app <br>
-**scope** - a specific area of the app
+_**Global** = availabe accross the whole app_ <br>
+_**Scope** = a specific area/part of the app_
 
 ## Linting & code formatting
 
