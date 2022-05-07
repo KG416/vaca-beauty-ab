@@ -30,12 +30,12 @@ _updated 22-05-07_
 - The `global.scss` file contains global styles and variables.
 - The `index.scss` file contains default settings, fonts, accessibility etc.
 
-**global** - availabe accross the whole app
+**global** - availabe accross the whole app <br>
 **scope** - a specific area of the app
 
 ## Linting & code formatting
 
-[What is linting?](https://en.wikipedia.org/wiki/Lint_%28software%29)
+[What is linting?](https://en.wikipedia.org/wiki/Lint_%28software%29) <br>
 [What is code formatting?](https://en.wikipedia.org/wiki/Prettyprint)
 
 In this project `eslint` is used for linting & `prettier` is used for code formatting.
@@ -46,9 +46,9 @@ In this project `eslint` is used for linting & `prettier` is used for code forma
 
 Code is organized into the following folders:
 
-- views - The main view components, that make up the different complete views
-- components - Reusable components, such as buttons
-- utils - Reusable functions, such as sorting
-- assets - Static binary assets such as sound and images
+- **views** - The main view components, that make up the different complete views
+- **components** - Reusable components, such as buttons
+- **utils** - Reusable functions, such as sorting
+- **assets** - Static binary assets such as sound and images
 
 ## Inspiration
