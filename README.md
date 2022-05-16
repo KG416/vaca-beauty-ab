@@ -1,5 +1,4 @@
-# 🍐 Karls React Template
-_updated 22-05-07_
+# 🍐 VACA Beauty AB
 
 ## Prerequisites
 
@@ -35,9 +34,6 @@ _**Scope** = a specific area/part of the app_
 
 ## Linting & code formatting
 
-[What is linting?](https://en.wikipedia.org/wiki/Lint_%28software%29) <br>
-[What is code formatting?](https://en.wikipedia.org/wiki/Prettyprint)
-
 In this project `eslint` is used for linting & `prettier` is used for code formatting.
 
 [Starting point for setup](https://dev.to/s2engineers/how-to-make-eslint-work-with-prettier-avoiding-conflicts-and-problems-57pi)
@@ -50,5 +46,3 @@ Code is organized into the following folders:
 - **components** - Reusable components, such as buttons
 - **utils** - Reusable functions, such as sorting
 - **assets** - Static binary assets such as sound and images
-
-## Inspiration

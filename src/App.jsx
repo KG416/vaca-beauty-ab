@@ -1,13 +1,14 @@
-import ComponentTemplate from './components/ComponentTemplate'
+// components
 import Container from './components/Container'
+import Header from './components/Header'
+import HeroSection from './components/HeroSection'
 
 const App = () => {
   return (
     <div>
       <Container>
-        <h1>APP</h1>
-        <br />
-        <ComponentTemplate />
+       <Header />
+        <HeroSection />
       </Container>
     </div>
   )
