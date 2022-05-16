@@ -2,6 +2,8 @@
 
 .container {
   max-width: $largeScreen;
+  min-height: 100vh;
   width: 100vw; /* calc(100vw - 2em); */
   margin: 0 auto;
+  position: relative;
 }
