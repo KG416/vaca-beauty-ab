@@ -1,4 +1,4 @@
-# 🍐 VACA Beauty AB
+# 💅 VACA Beauty AB
 
 ## Prerequisites
 
