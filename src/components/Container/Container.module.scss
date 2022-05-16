@@ -1,9 +1,17 @@
 @import '../../global.scss';
 
 .container {
+  width: 100%;
   max-width: $largeScreen;
   min-height: 100vh;
-  width: 100vw; /* calc(100vw - 2em); */
   margin: 0 auto;
   position: relative;
+  
+  /* make space for footer */
+  padding-bottom: $footerHeight;
+
+  /* increase footer space on small screens */
+  @media (max-width: $smallScreen) {
+    padding-bottom: $footerHeightSmallScreen;
+  }
 }

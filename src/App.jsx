@@ -1,4 +1,5 @@
 // components
+import Contact from './components/Contact'
 import Container from './components/Container'
 import Footer from './components/Footer'
 import Header from './components/Header'
@@ -7,14 +8,15 @@ import Products from './views/Products'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Container>
-       <Header />
+        <Header />
         <HeroSection />
         <Products />
+        <Contact />
         <Footer />
       </Container>
-    </div>
+    </>
   )
 }
 

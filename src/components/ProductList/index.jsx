@@ -3,7 +3,6 @@ import products from '../../data/products.json'
 import ProductItem from '../ProductItem'
 
 const ProductList = () => {
-  console.log(products)
   return (
     <ul className={styles.wrapper}>
       {products.map((product) => (

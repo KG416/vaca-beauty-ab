@@ -22,4 +22,8 @@ li.wrapper {
   img {
     width: 100%;
   }
+
+  @media (max-width: $smallScreen) {
+    width: 100%;
+  }
 }

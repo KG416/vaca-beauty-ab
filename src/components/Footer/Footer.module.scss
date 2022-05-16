@@ -2,15 +2,17 @@
 
 .wrapper {
   width: 100%;
+  height: $footerHeight;
   position: absolute;
   bottom: 0;
-  padding: 1rem 4rem;
+  padding: 0 5rem;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 
-  /* logo */
+  /* VACA logo */
   img {
     width: max-content;
   }
@@ -20,7 +22,7 @@
 
     li {
       list-style: none;
-      margin: 0 0.5rem;
+      margin: 0 1rem;
 
       a {
         color: $color6;
@@ -29,6 +31,24 @@
         &:hover {
           text-decoration: underline;
         }
+      }
+    }
+  }
+
+  @media (max-width: $mediumScreen) {
+    padding: 0 3rem;
+  }
+
+  @media (max-width: $smallScreen) {
+    height: $footerHeightSmallScreen;
+    flex-direction: column;
+    padding: 4rem 0;
+
+    ul {
+      flex-direction: column;
+
+      li {
+        margin: 0.4rem 0;
       }
     }
   }
