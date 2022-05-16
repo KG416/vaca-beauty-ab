@@ -1,7 +1,9 @@
 @import '../../global.scss';
 
 li.wrapper {
-  width: 400px;
+  $imageWidth: 300px;
+
+  width: $imageWidth;
   padding: 0;
   margin: 1.5rem;
   list-style: none;
@@ -20,15 +22,17 @@ li.wrapper {
   }
 
   .imgWrapper {
-    height: 400px;
-    width: 400px;
+    height: $imageWidth;
+    width: $imageWidth;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 
     img {
-      min-height: 100%;
+      position: relative;
+      bottom: calc($imageWidth * 0.1);
+      transform: scale(1.4); 
       min-width: 100%;
     }
   }

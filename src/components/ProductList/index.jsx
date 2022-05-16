@@ -40,6 +40,7 @@ const ProductList = () => {
             />
           ))}
       </ul>
+      
       <Button variant="secondary" onClick={showProducts}>
         {currentProducts.length === INIT_PRODUCTS ? 'Show more' : 'Show less'}
       </Button>
