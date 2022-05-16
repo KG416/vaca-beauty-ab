@@ -1,7 +1,7 @@
 @import '../../global.scss';
 
 li.wrapper {
-  width: 40%;
+  width: 400px;
   padding: 0;
   margin: 1.5rem;
   list-style: none;
@@ -19,11 +19,17 @@ li.wrapper {
     }
   }
 
-  img {
-    width: 100%;
-  }
+  .imgWrapper {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 
-  @media (max-width: $smallScreen) {
-    width: 100%;
+    img {
+      min-height: 100%;
+      min-width: 100%;
+    }
   }
 }
