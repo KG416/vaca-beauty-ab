@@ -42,6 +42,7 @@ In this project `eslint` is used for linting & `prettier` is used for code forma
 
 Code is organized into the following folders:
 
+- **data** - Dummy data in the form of products
 - **views** - The main view components, that make up the different complete views
 - **components** - Reusable components, such as buttons
 - **utils** - Reusable functions, such as sorting

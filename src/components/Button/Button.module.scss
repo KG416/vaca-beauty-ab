@@ -1,0 +1,35 @@
+@import '../../global.scss';
+
+.button {
+  border-radius: $borderRadiusSmall;
+
+  padding: 0.7rem;
+  margin: 0.7rem;
+  cursor: pointer;
+  text-decoration: none;
+  min-width: 100px;
+  max-width: 400px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  outline: none;
+
+  &.primary {
+    background-color: $color1;
+    color: $color6;
+
+    &:hover {
+      background-color: $color6;
+      color: $color1;
+    }
+  }
+
+  &.secondary {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+}

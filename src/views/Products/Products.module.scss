@@ -1,0 +1,17 @@
+@import '../../global.scss';
+
+.wrapper {
+  width: 100%;
+  background-color: $color2;
+  padding: 3rem 0;
+
+  h2 {
+    font-weight: 500;
+  }
+
+  .buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
