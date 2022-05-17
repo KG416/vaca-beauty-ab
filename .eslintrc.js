@@ -1,8 +1,8 @@
-// eslint-disable-next-line no-undef
 module.exports = {
 	"env": {
 		"es6": true,
 		"browser": true,
+		"node": true,
 		"es2021": true
 	},
 	"extends": [

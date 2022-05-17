@@ -8,7 +8,7 @@ const ProductItem = ({ img, title, description, price, currency }) => {
   return (
     <li className={styles.wrapper}>
       <div className={styles.imgWrapper}>
-        <img src={`../../assets/${img}`} alt="product image" />
+        <img src={`/assets/images/${img}`} alt="product image" />
       </div>
 
       <div className={styles.textWrapper}>
