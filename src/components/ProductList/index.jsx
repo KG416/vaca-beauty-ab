@@ -1,7 +1,4 @@
-// style
 import styles from './ProductList.module.scss'
-
-// components
 import ProductItem from '../ProductItem'
 
 const ProductList = ({ currentProducts = [] }) => {

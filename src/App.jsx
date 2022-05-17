@@ -8,15 +8,13 @@ import Products from './views/Products'
 
 const App = () => {
   return (
-    <>
-      <Container>
-        <Header />
-        <HeroSection />
-        <Products />
-        <Contact />
-        <Footer />
-      </Container>
-    </>
+    <Container>
+      <Header />
+      <HeroSection />
+      <Products />
+      <Contact />
+      <Footer />
+    </Container>
   )
 }
 

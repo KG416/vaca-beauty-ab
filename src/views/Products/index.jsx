@@ -1,15 +1,11 @@
-// style
-import styles from './Products.module.scss'
-
-// libs
-import { useState, useEffect } from 'react'
-
-// data
-import allProducts from '../../data/products.json'
-
 // components
 import ProductList from '../../components/ProductList'
 import Button from '../../components/Button'
+
+// libs, style & data
+import { useState, useEffect } from 'react'
+import styles from './Products.module.scss'
+import allProducts from '../../data/products.json'
 
 const Poducts = () => {
   const [currentProducts, setCurrentProducts] = useState([])
