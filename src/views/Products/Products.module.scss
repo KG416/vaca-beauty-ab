@@ -13,9 +13,22 @@
     margin-bottom: 1rem;
   }
 
-  .buttonWrapper {
+  .btnWrapperTop {
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .btnWrapperBottom {
+    button {
+      color: $color5;
+      border: $color5 $btnBorderSize solid;
+
+      &:hover {
+        color: $color6;
+        border: $color6 $btnBorderSize solid;
+        background-color: transparent;
+      }
+    }
   }
 }
